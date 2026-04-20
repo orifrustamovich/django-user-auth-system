@@ -143,36 +143,8 @@ User Can Now Log In
 - Email verification prevents unauthorized or bot registrations
 - Sessions are properly invalidated on logout
 ---
- 
-## 🗺️ Roadmap
- 
-- [ ] JWT Authentication (REST API support)
-- [ ] Password Reset via Email
-- [ ] Docker Deployment
-- [ ] Production Deployment (AWS / GCP / Render)
-- [ ] Rate Limiting & Brute-Force Protection
-- [ ] OAuth (Google, GitHub login)
----
- 
-## 🤝 Contributing
- 
-Contributions are welcome! Here's how:
- 
-1. Fork the repository
-2. Create your feature branch: `git checkout -b feature/your-feature`
-3. Commit your changes: `git commit -m 'Add some feature'`
-4. Push to the branch: `git push origin feature/your-feature`
-5. Open a Pull Request
-Please make sure your code follows the existing style and includes relevant comments.
- 
----
- 
-## 📄 License
- 
-This project is open-source and available under the [MIT License](LICENSE).
- 
----
- 
+
+
 ## 👨‍💻 Developer
  
 **Orifjon Toshtemirov** — Backend Developer (Python / Django)
