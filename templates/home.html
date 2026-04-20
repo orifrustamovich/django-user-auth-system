@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+    {% if user.is_authenticated %}
+        {{ user.username }}!
+    {% else %}
+        <p>Saytga kirmagansiz</p>
+        <a href="{% url 'login' %}">Kirish</a>
+        <a href="{% url 'register' %}">Ro'yxatdan o'tish</a>
+    {% endif %}
+
+{% endblock content %}
