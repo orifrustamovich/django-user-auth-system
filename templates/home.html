@@ -6,9 +6,9 @@
     {% if user.is_authenticated %}
         {{ user.username }}!
     {% else %}
-        <p>Saytga kirmagansiz</p>
-        <a href="{% url 'login' %}">Kirish</a>
-        <a href="{% url 'register' %}">Ro'yxatdan o'tish</a>
+        <p>You are not logged in</p>
+        <a href="{% url 'login' %}">Login</a>
+        <a href="{% url 'register' %}">Registration</a>
     {% endif %}
 
 {% endblock content %}
